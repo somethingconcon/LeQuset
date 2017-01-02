@@ -56,17 +56,17 @@ class Statement(resource: LeResource) {
 }
 
 // LeDB Request Building Blocks
-trait Condition
-case class Limit(n: Int)            extends Condition
-case class Where(s: ResourceFilter) extends Condition
-case class Join(t: LeTable, on: => t.foreignKey#type ) extends Condition
-case class Limit(n: Int) extends Condition
-case class Having()  extends Condition
+trait ConditionLens
+case class Limit(n: Int)                               extends ConditionLens
+case class Where(s: Filter)                            extends ConditionLens
+case class Join(t: LeTable, on: => t.foreignKey#type ) extends ConditionLens
+case class Limit(n: Int)                               extends ConditionLens
+case class Having()                                    extends ConditionLens
 
-trait ResultFilter
-case class OrderBy(columns: Set[Columns], desc: Boolean) extends ResultFilter
-case class GroupBy(columns: Set[Columns])                extends ResultFilter
-case class Select (columns: Set[Columns])                extends ResultFilter
+trait ResultLens
+case class OrderBy(columns: Set[Columns], desc: Boolean) extends ResultLens
+case class GroupBy(columns: Set[Columns])                extends ResultLens
+case class Select (columns: Set[Columns])                extends ResultLens
 
 object Statement {
 
