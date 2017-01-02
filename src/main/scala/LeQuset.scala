@@ -3,17 +3,19 @@ package lequest
 // A single interface for all clients
 // API Layer for communication with clients.  This layer should only be persistence actions.
 //
-class LeQuset(clinets: Set[Client]) {
+class LeQuset(clinets: Set[LeClient]) {
 
-  // import
-  //   LeRequestBuilder._,
-  //   LeClientFinder._
+  import
+    lequset.client.collections.LeClients
+  
+  val leClients = new LeClients(clients)
 
   def command(command: LeDbCommand) // return
 
   def run[A <: LeRequest](request: A): Future[LeResponse] = {
-    findClients(request).map {
-      clinet.send(request)
+    // Find clients that satisfy the request type
+    leClients.filterFor(request) {
+      _.run(request)
     }
   }
 
@@ -22,14 +24,7 @@ class LeQuset(clinets: Set[Client]) {
 }
 
 object LeQuset {
-
-  def apply(definitions: Set[DbDefinition]) = {
-    definitions.map { definition =>
-      new Client(definition)
-    }
-  }
-
-  def apply(dbInterfaces: Set[Interface]) = {
-    dbInterfaces.map(interface => new Client(interface))
+  def apply(interfaces: Set[Interface]): LeQuset = {
+    dbInterfaces.map(interface => new LeClient(interface))
   }
 }

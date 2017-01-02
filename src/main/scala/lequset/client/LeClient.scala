@@ -8,8 +8,9 @@ trait LeClient[A <: Interface, B] {
 
   import LeClient._
 
-  val db: B
-  val translator: Translator[B]
+  val db:            B
+  val translator:    LeTranslator[B]
+  val clientContext: ExecutionContext // define a EC for clients to distribute cpu load
 
   def run[C, D](request: LeRequest)(implicit ec: ExecutionContext) = {
     //
