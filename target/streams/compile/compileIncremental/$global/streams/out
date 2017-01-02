@@ -1,15 +1,118 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/Engine.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/Interface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/Translator.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/dsl/Dsl.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/package.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/resource/LeResource.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/DynamoInterface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/LeQuset.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/SlickInterface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/LeClient.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/pacakge.scala)[0m
 [0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/Engine.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/Interface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/Translator.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/dsl/Dsl.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/package.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/resource/LeResource.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/DynamoInterface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/LeQuset.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/SlickInterface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/LeClient.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/pacakge.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/Engine.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/Interface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/Translator.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/dsl/Dsl.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/package.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/resource/LeResource.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/DynamoInterface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/LeQuset.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/interfaces/SlickInterface.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/LeClient.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala, /Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/client/pacakge.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 13 sources: invalidated sources (13) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 13 Scala sources to /Users/conorreedy1/Development/testing/LeQuset/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 2a4f0e0d, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-Xlint[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-unchecked[0m
+[0m[[0mdebug[0m] [0m	-Xfatal-warnings[0m
+[0m[[0mdebug[0m] [0m	-Ywarn-unused-import[0m
+[0m[[0mdebug[0m] [0m	-Yno-adapted-args[0m
+[0m[[0mdebug[0m] [0m	-language:higherKinds[0m
+[0m[[0mdebug[0m] [0m	-language:existentials[0m
+[0m[[0mdebug[0m] [0m	-encoding[0m
+[0m[[0mdebug[0m] [0m	UTF-8[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/Users/conorreedy1/.ivy2/cache/com.milessabin/si2712fix-plugin_2.11.8/jars/si2712fix-plugin_2.11.8-1.2.0.jar[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Users/conorreedy1/Development/Platforms/jdk1.8.0_25.jdk/Contents/Home/jre/classes:/Users/conorreedy1/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/conorreedy1/Development/testing/LeQuset/target/scala-2.11/classes:/Users/conorreedy1/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.2.jar:/Users/conorreedy1/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar:/Users/conorreedy1/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.3.0-M7.jar:/Users/conorreedy1/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:30: illegal start of simple expression[0m
+[0m[[31merror[0m] [0m      )[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:31: ')' expected but '}' found.[0m
+[0m[[31merror[0m] [0m  }[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:36: illegal start of simple expression[0m
+[0m[[31merror[0m] [0m      )[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:37: ')' expected but '}' found.[0m
+[0m[[31merror[0m] [0m  }[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:50: '=>' expected but '=' found.[0m
+[0m[[31merror[0m] [0m    case Some(data) = OffsetBuilder(data)[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:62: expected class or object definition[0m
+[0m[[31merror[0m] [0mCreateStatement extends PersistenceStatement[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:63: expected class or object definition[0m
+[0m[[31merror[0m] [0mDeleteStatement extends PersistenceStatement[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/engine/translator/statement/Statement.scala:64: expected class or object definition[0m
+[0m[[31merror[0m] [0mUpdateStatement extends PersistenceStatement[0m
+[0m[[31merror[0m] [0m^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/package.scala:60: identifier expected but ']' found.[0m
+[0m[[31merror[0m] [0m    val id: Id[][0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/package.scala:61: ']' expected but '}' found.[0m
+[0m[[31merror[0m] [0m  }[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/package.scala:81: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0m  case class JoinableTable extends Table[0m
+[0m[[31merror[0m] [0m                          ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/package.scala:82: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0m  case class SingleTable   extends Table[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:22: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Write extends LeRequestType[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:23: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Read extends LeReuqestType[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:26: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Update extends Write[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:27: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Create extends Write[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:28: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Delete extends Write[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:29: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Update extends Write[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:30: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Upsert extends Write[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:33: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Find extends Read[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:34: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class Query extends Read[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/Users/conorreedy1/Development/testing/LeQuset/src/main/scala/lequset/request/LeRequest.scala:38: case classes without a parameter list are not allowed;[0m
+[0m[[31merror[0m] [0muse either case objects or case classes with an explicit `()' as a parameter list.[0m
+[0m[[31merror[0m] [0mcase class SomeAggregateFunction extends LeRequestAction[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m22 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

@@ -4,10 +4,10 @@
 	<info
 		organisation="dd"
 		module="lequest_2.11"
-		revision="1.2.0-SNAPSHOT"
+		revision="0.0.1-SNAPSHOT"
 		conf="optional"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170101034435"/>
+		date="20170102043229"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>
