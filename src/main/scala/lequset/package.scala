@@ -72,14 +72,18 @@ package object schema {
 
 package object storage {
 
-  trait      Strategy  { val joinable: Boolean }
-  case class Relational(joinable: Boolean = true ) extends Strategy
-  case class KeyValue  (joinable: Boolean = false) extends Strategy
-  case class NoSql     (joinable: Boolean = false) extends Strategy
+  trait      StorageStrategy  { val joinable: Boolean }
+  case class Relational(joinable: Boolean = true ) extends StorageStrategy
+  case class KeyValue  (joinable: Boolean = false) extends StorageStrategy
+  case class NoSql     (joinable: Boolean = false) extends StorageStrategy
 
   trait Table
-  case class JoinableTable extends Table
-  case class SingleTable   extends Table
+  case class JoinableTable() extends Table
+  case class SingleTable()   extends Table
+
+  trait QueryStrategy
+  case class OneForOne extends QueryStrategy // the classic one query one table
+  case class ManyForOne extends QueryStrategy // the adaptive one query many tables ie Transactions
 
 }
 
